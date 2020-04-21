@@ -231,7 +231,11 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+<<<<<<< HEAD
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1587324772856" />
+=======
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1587325518202" />
+>>>>>>> a7939ecfa29820df56f210f7617fa07f6fbe009e
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
@@ -306,18 +310,30 @@
       <option name="presentableId" value="Default" />
       <updated>1586893269565</updated>
       <workItem from="1586893271249" duration="4118000" />
+<<<<<<< HEAD
       <workItem from="1587315175145" duration="9097000" />
+=======
+      <workItem from="1587315175145" duration="9785000" />
+>>>>>>> a7939ecfa29820df56f210f7617fa07f6fbe009e
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
+<<<<<<< HEAD
     <option name="totallyTimeSpent" value="13215000" />
+=======
+    <option name="totallyTimeSpent" value="13903000" />
+>>>>>>> a7939ecfa29820df56f210f7617fa07f6fbe009e
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <editor active="true" />
     <layout>
+<<<<<<< HEAD
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.22147651" />
+=======
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.22147651" />
+>>>>>>> a7939ecfa29820df56f210f7617fa07f6fbe009e
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -326,7 +342,11 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
+<<<<<<< HEAD
       <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.41926345" />
+=======
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.41926345" />
+>>>>>>> a7939ecfa29820df56f210f7617fa07f6fbe009e
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />

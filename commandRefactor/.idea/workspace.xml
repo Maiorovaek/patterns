@@ -1,7 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
+<<<<<<< HEAD
     <list default="true" id="7ba51c3c-0b4a-455f-a402-655a57427599" name="Default Changelist" comment="" />
+=======
+    <list default="true" id="7ba51c3c-0b4a-455f-a402-655a57427599" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../command/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../command/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../command/command.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../command/command.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../command/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../command/src/Main.java" afterDir="false" />
+    </list>
+>>>>>>> a7939ecfa29820df56f210f7617fa07f6fbe009e
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -10,7 +19,11 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
+<<<<<<< HEAD
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+=======
+    <leaf>
+>>>>>>> a7939ecfa29820df56f210f7617fa07f6fbe009e
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Main.java">
           <provider selected="true" editor-type-id="text-editor" />
@@ -124,11 +137,15 @@
       <workItem from="1586802107114" duration="31000" />
       <workItem from="1586802173310" duration="35000" />
       <workItem from="1586802389458" duration="45000" />
+<<<<<<< HEAD
       <workItem from="1586893111541" duration="139000" />
+=======
+>>>>>>> a7939ecfa29820df56f210f7617fa07f6fbe009e
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
+<<<<<<< HEAD
     <option name="totallyTimeSpent" value="4127000" />
   </component>
   <component name="ToolWindowManager">
@@ -136,6 +153,14 @@
     <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.14832215" />
+=======
+    <option name="totallyTimeSpent" value="3988000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <layout>
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.14630872" />
+>>>>>>> a7939ecfa29820df56f210f7617fa07f6fbe009e
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
