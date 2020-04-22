@@ -3,17 +3,17 @@ package start;
 import java.util.Iterator;
 
 public class Waitress {
-    private PancakeHouseMenu pancakeHouseMenu;
-    private DinnerMenu dinnerMenu;
+    private Menu pancakeHouseMenu;
+    private Menu dinnerMenu;
 
-    public Waitress(PancakeHouseMenu pancakeHouseMenu, DinnerMenu dinnerMenu) {
+    public Waitress(Menu pancakeHouseMenu, Menu dinnerMenu) {
         this.pancakeHouseMenu = pancakeHouseMenu;
         this.dinnerMenu = dinnerMenu;
     }
 
     public void printMenu() {
-        Iterator breakfastItems = pancakeHouseMenu.createIterator();
-        Iterator menuLunch = dinnerMenu.createIterator();
+        Iterator<MenuItem> breakfastItems = pancakeHouseMenu.createIterator();
+        Iterator<MenuItem> menuLunch = dinnerMenu.createIterator();
         System.out.println("MENU\n----\nBREAKFAST");
         printMenu(breakfastItems);
         System.out.println("\nLUNCH");
@@ -30,27 +30,10 @@ public class Waitress {
     }
 
     public void printBreakfastMenu() {
-        PancakeHouseMenu pancakeHouseMenu = new PancakeHouseMenu();
-
-        //        ArrayList<MenuItem> breakfastItems = pancakeHouseMenu.getMenuItems();
-//        for (int i = 0; i < breakfastItems.size(); i++) {
-//            MenuItem menuItem = breakfastItems.get(i);
-//            System.out.println(menuItem.getName() + " ");
-//            System.out.println(menuItem.getPrice() + " ");
-//            System.out.println(menuItem.getDescription() + " ");
-//        }
     }
 
     public void printLaunchMenu() {
-        DinnerMenu dinerMenu = new DinnerMenu();
 
-        // MenuItem[] menuItems = dinerMenu.getMenuItems();
-//        for (int i = 0; i < menuItems.length; i++) {
-//            MenuItem menuItem = menuItems[i];
-//            System.out.println(menuItem.getName() + " ");
-//            System.out.println(menuItem.getPrice() + " ");
-//            System.out.println(menuItem.getDescription() + " ");
-//        }
     }
 
     public void printVegetarianMenu() {
@@ -59,6 +42,4 @@ public class Waitress {
     public boolean isItemVegetarian(String name) {
         return true;
     }
-
-
 }

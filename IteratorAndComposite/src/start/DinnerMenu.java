@@ -2,7 +2,7 @@ package start;
 
 import java.util.Iterator;
 
-public class DinnerMenu {
+public class DinnerMenu implements Menu {
     private static final int MAX_ITEMS = 6;
     private int numberOfItems = 0;
     private MenuItem[] menuItems;
@@ -34,11 +34,7 @@ public class DinnerMenu {
         }
     }
 
-    public Iterator createIterator(){
+    public Iterator createIterator() {
         return new DinnerMenuIterator(menuItems);
     }
-
-//    public MenuItem[] getMenuItems() {
-//        return menuItems;
-//    }
 }
