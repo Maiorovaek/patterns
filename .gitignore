@@ -4,3 +4,4 @@
 *.iml
 *.ipr
 *.kotlin_module
+/target/
