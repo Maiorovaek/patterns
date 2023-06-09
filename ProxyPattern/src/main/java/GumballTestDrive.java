@@ -1,45 +1,16 @@
 public class GumballTestDrive {
     public static void main(String[] args) {
-        GumballMachine gumballMachine =
-                new GumballMachine(10);
+        int count = 10;
 
-        System.out.println(gumballMachine);
+        if (args.length < 2) {
+            System.out.println("Gumball machine <name> <inventory>  ");
+            System.exit(1);
+        }
 
-        gumballMachine.insertQuarter();
-        System.out.println(gumballMachine);
-        gumballMachine.turnCrank();
-        System.out.println(gumballMachine);
-        gumballMachine.insertQuarter();
-        gumballMachine.turnCrank();
+        count = Integer.parseInt(args[1]);
+        GumballMachine gumballMachine = new GumballMachine(count, args[0]);
+        GumballMonitor gumballMonitor = new GumballMonitor(gumballMachine);
 
-        System.out.println(gumballMachine);
-
-        gumballMachine.insertQuarter();
-        gumballMachine.turnCrank();
-        gumballMachine.insertQuarter();
-        gumballMachine.turnCrank();
-
-        System.out.println(gumballMachine);
-
-        gumballMachine.insertQuarter();
-        gumballMachine.turnCrank();
-        gumballMachine.insertQuarter();
-        gumballMachine.turnCrank();
-
-        System.out.println(gumballMachine);
-
-        gumballMachine.insertQuarter();
-        gumballMachine.turnCrank();
-        gumballMachine.insertQuarter();
-        gumballMachine.turnCrank();
-
-        System.out.println(gumballMachine);
-
-        gumballMachine.insertQuarter();
-        gumballMachine.turnCrank();
-        gumballMachine.insertQuarter();
-        gumballMachine.turnCrank();
-
-        System.out.println(gumballMachine);
+        gumballMonitor.report();
     }
 }
