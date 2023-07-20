@@ -1,6 +1,6 @@
 public class SoldState implements State {
-    GumballMachine gumballMachine;
-
+    transient GumballMachine gumballMachine;
+    private static final long serialVersionID = 2L;
     public SoldState(GumballMachine gumballMachine) {
         this.gumballMachine = gumballMachine;
     }

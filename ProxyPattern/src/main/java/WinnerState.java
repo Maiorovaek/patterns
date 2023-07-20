@@ -1,7 +1,7 @@
 public class WinnerState implements State {
 
-    GumballMachine gumballMachine;
-
+    transient GumballMachine gumballMachine;
+    private static final long serialVersionID = 2L;
     public WinnerState(GumballMachine gumballMachine) {
         this.gumballMachine = gumballMachine;
     }
