@@ -68,6 +68,7 @@ public class MatchMakingTestDrive {
     }
 
     PersonBean getNonOwnerProxy(PersonBean person) {
+        //Заместитель строится динамически вызовом метода Proxy.newProxyInstance()
         return (PersonBean) Proxy.newProxyInstance(
                 person.getClass().getClassLoader(),
                 person.getClass().getInterfaces(),
@@ -75,7 +76,9 @@ public class MatchMakingTestDrive {
     }
 
     PersonBean getOwnerProxy(PersonBean person) {
-        return (PersonBean) Proxy.newProxyInstance(person.getClass().getClassLoader(),
+        //Заместитель строится динамически вызовом метода Proxy.newProxyInstance()
+        return (PersonBean) Proxy.newProxyInstance(
+                person.getClass().getClassLoader(),
                 person.getClass().getInterfaces(),
                 new OwnerInvocationHandler(person));
     }
